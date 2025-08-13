@@ -1,0 +1,128 @@
+body{
+    font-family: "Plus Jakarta Sans",sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex:1;
+}
+
+
+
+/* navbar */
+.navbar{
+    height: 5 rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fb3d5d;
+    font-size: 2rem;
+    
+}
+.nav-link{
+    color: #222222 !important; /*this will override bootstrap*/
+}
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* card overlay */
+.card-img-overlay{
+    opacity: 0;
+
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+
+
+}
+/* new-add-btn */
+.add-btn{
+    background-color: #fb3d5d !important;
+    border: none !important;
+}
+
+/* edit-btn */
+.edit-btn{
+     background-color: #fb3d5d !important;
+    border: none !important;
+}
+
+/* show -img deletebtn */
+.delete-btn{
+    background-color: #fb3d5d !important;
+    border: none !important;
+    color: white !important;
+}
+/* show img */
+.show-img{
+    height:40vh !important;
+
+
+}
+
+.btns{
+    display: flex;
+}
+
+
+/*footer*/
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+
+.fa-square-instagram:hover {
+  transform: scale(1.2);
+  color: #f4076e;
+}
+
+.fa-square-facebook:hover{
+    transform: scale(1.2);
+    color: #0766f4;
+}
+.fa-square-linkedin:hover{
+    transform: scale(1.2);
+    color: #0717f4;
+}
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.f-info-socials i{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: rgb(239, 237, 237);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+}
