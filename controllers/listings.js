@@ -76,11 +76,11 @@ module.exports.searchByLocation = async (req, res) => {
             location: { $regex: location, $options: 'i' }
         });
 
-        if (listings.length > 0) {
-            req.flash("success", `${listings.length} listings found for "${location}"`);
-        } else {
-            req.flash("error", `No listings found for "${location}"`);
-        }
+        // if (listings.length > 0) {
+        //     req.flash("success", `${listings.length} listings found for "${location}"`);
+        // } else {
+        //     req.flash("error", `No listings found for "${location}"`);
+        // }
         res.render('listings/index.ejs', { allListings: listings });
     } catch (err) {
         console.error(err);

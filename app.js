@@ -118,7 +118,6 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-    // Option 1: Redirect to listings
     res.redirect("/listings");
     });
 
